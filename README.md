@@ -24,4 +24,46 @@ use all this value of ursin config.env file
 run nodemom
 
 --------------------------------------------
-to 
+to  register  user ----
+use POST method  for testing api i.e.  use postman
+http://localhost:5000/user/register ----------> to register the user
+
+username , eamil and password to register
+
+api to login -----------  use post 
+http://localhost:5000/user/login              -----> to login  api
+
+
+----------------------------------------
+use get api fetch all the user
+http://localhost:5000/user/userlist
+
+
+------------------------------
+
+to edit use put api in post man
+
+
+http://localhost:5000/edit/{userId}
+
+ex----http://localhost:5000/user/edit/64ff29e799316272d00dbffd
+use like this to update
+
+
+to delete----------
+
+use delete api
+http://localhost:5000/delete/{userId}
+http://localhost:5000/user/delete/64ff29e799316272d00dbffd
+
+
+
+
+
+now ----------  to forgot password api
+
+use config.env    use gmail and  there should be use app- nodemailer in gmail account, it should be authenticated
+
+use post api -- for forgot password api
+
+http://localhost:5000/pass/forgot-password
