@@ -54,7 +54,7 @@ to delete----------
 
 use delete api
 http://localhost:5000/delete/{userId}
-http://localhost:5000/user/delete/64ff29e799316272d00dbffd
+exapmple -http://localhost:5000/user/delete/64ff29e799316272d00dbffd
 
 
 
