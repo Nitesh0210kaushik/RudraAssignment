@@ -12,7 +12,7 @@ first run ----->>      npm install       --  to install  all its dependencies
 to run -->  use command ---->        nodemon
 index.js --- is the entry point --->       node index.js   can also be used to run
 
-backend setup -->   i have used 0.0.0.0  instead of localhost , can use in localhost in db/confif.js/line3
+backend setup -->   i have used 0.0.0.0  instead of localhost , can use in localhost in db/config.js/line3
  there is process env file , create one env file 
    EMAIL_USER= 
 EMAIL_PASS=
